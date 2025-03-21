@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bingo Winner Verification</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .valid { color: green; }
+        .invalid { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Bingo Winner Verification</h1>
+    <div id="result"></div>
+
+    <script>
+        // Get parameters from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const game = urlParams.get('game');
+        const numbers = urlParams.get('numbers');
+
+        // Debugging: Log parameters to the console
+        console.log('Game ID:', game);
+        console.log('Submitted Numbers:', numbers);
+
+        // Hardcoded winning numbers for testing
+        const actualWinningNumbers = ['B3', 'I16', 'N32', 'G55', 'O70'];
+        
+        // Split the submitted numbers into an array
+        let isValid = true;
+        if (numbers) {
+            const submittedNumbers = numbers.split(',');
+            isValid = submittedNumbers.every(num => actualWinningNumbers.includes(num));
+        }
+
+        // Display result
+        const resultDiv = document.getElementById('result');
+        if (isValid) {
+            resultDiv.innerHTML = `<h2 class="valid">✅ Valid Win! Congratulations!</h2>`;
+        } else {
+            resultDiv.innerHTML = `<h2 class="invalid">❌ Invalid Win. Keep playing!</h2>`;
+        }
+    </script>
+</body>
+</html>
