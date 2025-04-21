@@ -55,8 +55,13 @@ GoldenBingo Live is a **hosted online bingo service** designed exclusively for e
 ---
 
 ## 📧 Contact  
+<<<<<<< HEAD
 **Care Home Support**: support@goldenbingo.live | Mon-Fri 8AM-6PM GMT  
 **Sales & Partnerships**: sales@goldenbingo.live  
+=======
+**Care Home Support**: support@ | Mon-Fri 8AM-6PM GMT  
+**Sales & Partnerships**: sales@  
+>>>>>>> 16f257a (initial)
 **Address**: Unit 5, CareTech Hub, London NW1 4LZ, UK  
 
 **Website**: 

@@ -1,0 +1,156 @@
+### **1. Define Core Features & Accessibility**
+- **Website Hosted Bingo Game**: 
+  - Live-hosted games with scheduled sessions (e.g., daily/weekly).
+  - Simple, large-text interface optimized for TVs/tablets.
+  - Audio support (clear number calling) and closed captioning.
+- **Physical Bingo Cards**:
+  - Printable PDF cards with QR codes/barcodes for each card and number.
+  - Unique identifiers to link physical cards to digital profiles.
+  - Instructions for care homes on printing (cardstock recommended for durability).
+- **Real-Time Gameplay**:
+  - Integration with TVs: Care homes can stream the game via a dedicated URL or app.
+  - Auto-daubing: Staff scans QR codes to mark numbers on the website in real time.
+  - Winner verification via scanned cards.
+
+1.1 Live Hosted Game Requirements
+Key Features:
+* Live Virtual Host:
+    * A dedicated webpage with a full-screen, simplified interface.
+    * Primary focus: Giant, bold numbers displayed prominently (e.g., 70+ pt font, high-contrast colors like black/white or yellow/blue).
+    * Virtual Host Voice: Clear, slow-paced, upbeat audio for number calling (pre-recorded or live human host).
+    * Optional: Closed captions synced with the audio.
+* TV/Device Streaming:
+    * Care homes open a direct website link (no app/login required).
+    * Optimized for TVs: Test compatibility with browsers (Chrome, Safari) and devices (Fire Stick, tablets).
+
+1.2 Physical Bingo Card Design
+Key Features:
+* Readability First:
+    * Large, sans-serif font (e.g., Arial 24pt+).
+    * Grid layout with high-contrast colors (avoid red/green for colorblind users).
+    * QR code placed only on the winning verification card (e.g., a separate “winner’s slip” to scan after the game).
+* Printing Options:
+    * Option 1: Care homes print cards themselves (PDF download from your site).
+    * Option 2: Print-on-demand service (your platform handles printing/shipping for a fee).  [BINGO CARD]  
+* B  12 | 34 | 56 | 78 | 90  
+* I  15 | 32 | ...  
+* N  ...  
+* G  ...  
+* O  ...  
+* [QR CODE (only on winner verification slip)]   
+
+1.3 QR Code System (Winner Verification)
+Key Features:
+* Post-Game Scanning:
+    * Staff scans the QR code on the winning card only.
+    * QR code links to a page confirming:
+        * Game ID, timestamp, and winning numbers.
+        * No personal data stored—just validation.
+* No Pre-Registration:
+    * Cards are anonymous. Only the winning card needs scanning.
+
+1.4 Accessibility for Residents
+Key Features:
+* Website Interface:
+    * Residents watching via TV need:
+        * No interactive elements (just a passive viewing experience).
+        * Audio controls (volume up/down, pause).
+    * Text-to-speech option for rules/instructions.
+* Card Accessibility:
+    * Offer “large print” and “mega print” PDF download options.
+    * Laminated card templates (for reuse with dry-erase markers).
+1.5 Integration with Print-on-Demand (Optional)
+Key Features:
+* Third-Party Printing:
+    * Partner with a print service (e.g., Vistaprint) for ready-made cards.
+    * Care homes pay for shipping + your markup.
+    * Cards include pre-printed QR winner slips.
+
+
+---
+
+### **2. Technical Development**
+- **Website Platform**:
+  - Use a user-friendly CMS (e.g., WordPress) or custom build with tools like React.js.
+  - Ensure accessibility: High-contrast colors, text-to-speech, and keyboard navigation.
+- **Bingo Card Generator**:
+  - Algorithm to randomize numbers and generate unique QR codes.
+  - PDF templates for easy printing.
+- **QR/Barcode System**:
+  - Link each card to a digital profile on your platform.
+  - Use libraries like ZXing or QuaggaJS for scanning via webcam/tablet.
+- **Live Streaming**:
+  - Use platforms like Zoom, YouTube Live, or Twitch for hosting (low-cost).
+  - Add moderation tools for hosts to manage gameplay.
+
+---
+
+### **3. Business Model & Pricing**
+- **Revenue Streams**:
+  - Subscription model for care homes (monthly/annual fees).
+  - Pay-per-game tickets or bulk card purchases.
+  - Sponsorships from elder-care brands (e.g., medical suppliers).
+  - Freemium tier with ads (non-intrusive, elder-friendly brands).
+- **Cost Management**:
+  - Start with MVP (Minimum Viable Product) to test demand.
+  - Partner with printers for bulk discounts for care homes.
+
+---
+
+### **4. Partnerships & Compliance**
+- **Legal Compliance**:
+  - Consult a lawyer to ensure compliance with gambling laws (non-monetary prizes only?).
+  - Privacy compliance (GDPR, HIPAA if in the U.S.) for user data.
+- **Care Home Partnerships**:
+  - Pilot with local care homes for feedback and testimonials.
+  - Partner with associations like the National Care Home Association.
+- **Tech Partners**:
+  - Collaborate with printer companies for discounted hardware for care homes.
+  - Integrate with existing elderly activity platforms (e.g., Connected Living).
+
+---
+
+### **5. Launch & Marketing**
+- **Pilot Testing**:
+  - Test with 3–5 care homes to refine usability and gameplay flow.
+  - Gather feedback from staff and residents (e.g., card size, font clarity).
+- **Marketing Strategy**:
+  - Target care home managers via LinkedIn ads, email campaigns, and industry events.
+  - Highlight social benefits (combatting loneliness, cognitive engagement).
+  - Create tutorial videos for staff and residents.
+- **Community Building**:
+  - Host nationwide tournaments with prizes (e.g., donated gift baskets).
+  - Share success stories on social media (“Resident of the Week” features).
+
+---
+
+### **6. Support & Scalability**
+- **Training & Support**:
+  - Offer free onboarding webinars for care home staff.
+  - Provide 24/7 chat/phone support for technical issues.
+- **Scalability**:
+  - Cloud hosting (AWS, Google Cloud) to handle traffic spikes.
+  - Expand to international markets with localized content.
+- **Future Features**:
+  - Customizable themes (holidays, nostalgia themes).
+  - Family participation options (remote relatives can join games).
+
+---
+
+### **Example Workflow for a Game**
+1. **Pre-Game**:
+   - Care home prints cards from your website.
+   - Staff registers cards by scanning QR codes into the platform.
+2. **Live Game**:
+   - Residents watch the game via TV/tablet.
+   - Host calls numbers; staff scans cards as numbers are marked.
+3. **Post-Game**:
+   - Automatic winner verification via scanned cards.
+   - Digital certificates or small prizes sent to winners.
+
+---
+
+### **Potential Challenges & Solutions**
+- **Tech Literacy**: Simplify workflows for care home staff with training guides.
+- **Printing Costs**: Offer a paid “pre-printed card” service for care homes lacking printers.
+- **Internet Reliability**: Provide an offline mode with delayed number updates.

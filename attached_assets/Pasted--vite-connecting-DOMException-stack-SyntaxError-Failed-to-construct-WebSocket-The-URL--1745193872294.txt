@@ -1,0 +1,40 @@
+[vite] connecting...
+DOMException {}
+stack: "SyntaxError: Failed to construct 'WebSocket': The URL 'wss://localhost:undefined/?token=UvTNkOK94twC' is invalid.↵ at new t (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:218737)↵ at setupWebSocket (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/@vite/client:536:19)↵ at fallback (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/@vite/client:509:16)↵ at WebSocket.<anonymous> (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/@vite/client:555:7)"
+get stack: ƒ ()
+set stack: ƒ ()
+[[Prototype]]: DOMException
+
+Warning: validateDOMNesting(...): <a> cannot appear as a descendant of &lt;a&gt;.
+    at a
+    at a
+    at https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=c60533a4:337:18
+    at li
+    at ul
+    at div
+    at div
+    at div
+    at footer
+    at Footer
+    at div
+    at Router
+    at QueryClientProvider (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=c60533a4:2805:3)
+    at App
+at a
+at a
+at https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=c60533a4:337:18
+at li
+at ul
+at div
+at div
+at div
+at footer
+at Footer
+at div
+at Router
+at QueryClientProvider (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=c60533a4:2805:3)
+at App
+at t.value (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:17465)
+at new t (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:12630)
+at t.value (https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:32766)
+at https://09a1e66d-1d8e-4994-98de-f3f5768b24da-00-fvnw6cs4xtcv.kirk.replit.dev/__replco/static/devtools/eruda/3.2.3/eruda.js:2:34400
