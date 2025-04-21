@@ -3,12 +3,12 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
 import NotFound from "@/pages/not-found";
-import Home from "@/pages/home";
+import Home from "@/pages/Home";
 import LiveGame from "@/pages/live-game";
 import HowToPlay from "@/pages/how-to-play";
 import Contact from "@/pages/contact";
-import Header from "@/components/header";
-import Footer from "@/components/footer";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 function Router() {
   return (
